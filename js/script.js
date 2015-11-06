@@ -1,10 +1,9 @@
-$(function() {
-    // Write the code applying the .sortable() modifier to
-    // the sortlist
-    $( "#sortlist" ).sortable({
-      placeholder: "sortable-placeholder",
-      containment:"#sortlist"
-
-    });
-
+$(document).ready(function(){
+  $( "#sortlist" ).sortable({
+    placeholder: "sortable-placeholder",
+    containment:"#sortlist"
   });
+  $('.redo').click(function() {
+    $("#sortlist").sortable("cancel");
+  });
+});
