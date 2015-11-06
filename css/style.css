@@ -1,3 +1,12 @@
+body{
+  margin-left: 12em;
+  margin-top: 0.5em;
+
+  
+}
+.img{
+  padding-left: 20em; 
+}
 #sortlist{
  list-style-type: none;
  margin: 0;
@@ -5,18 +14,17 @@
  width: 960px; 
 
 }
-li{
+.sort-item{
   padding: 0px; 
   margin:0px;
   display:inline-block;
 }
-li>img{
+.sort-item>img{
   width: 240px;
 }
 
 .sortable-placeholder {
   width:240px;
-  height: 180px;
   background-color: yellow;
   display: inline-block;
 }
