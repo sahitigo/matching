@@ -11,7 +11,7 @@ body{
  list-style-type: none;
  margin: 0;
  padding: 0; 
- width: 960px; 
+ width: 100%; 
 
 }
 .sort-item{
